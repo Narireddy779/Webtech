@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- <form action="">
+       Name : <input  > <br><br>
+       Email : <input > <br><br>
+       <button>Submit</button>
+    </form><br><br>
+    <form >
+        <label for="name">UserName</label>
+        <input id="name"> <br><br>
+        <label >Password</label>
+        <input><br><br>
+        <button>login</button>
+    </form>
+    <br><br>
+    <form action="">
+        <label for="Name">Name</label>
+        <input id="Name"> <br><br>
+        
+    </form> -->
+    <center><h1>Enter the deatils in the form given below</h1></center>
+    <hr>
+    <form action="./iframe.html" novalidate method="post">
+        <pre>
+        <label for="username">Username</label>
+        <input id="username" placeholder="enter your Username" type="text" name="username" autocomplete="off" autofocus  size="20" pattern="[a-Z0-9@]{5}">
+        <br><br>
+        <label for="email">Email</label>
+        <input id="email" placeholder="enter your email" type="email" name="email" value="Varanasivnr@gmail.com" readonly>
+        <br><br>
+        <label for="password">Password</label>
+        <input id="password"placeholder="enter your password" type="password" name="password" autofocus minlength="8" maxlength="15">
+        <br><br>
+        <label for="number">Number</label>
+        <input id="number" placeholder="enter your number" type="tel" name="number">
+        <br><br>
+        <label for="DOB">DOB</label>
+        <input id="DOB" type="date" placeholder="enter your dob" name="DOB">
+        <br><br>
+        <label for="Age">Age</label>
+        <input id="Age" type="number" placeholder="age" name="age" min="18" max="50" step="3" size="20">
+        <br><br>
+        <label for="Address">Address</label>
+        <textarea name="" id="Address" placeholder="enter your description" rows="5" cols="90" name="Address"></textarea>
+        <br><br>
+        <label for="gender">Gender: </label>
+        <input name="gender" type="radio" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+        <label for="Resume">Resume:</label>
+        <input type="file" id="Resume" name="Resume">
+        <br><br>
+        <label for="food item">Food items:</label>
+        <input type="checkbox" name="chicken" id="food item">Chicken
+        <input type="checkbox" name="Mutton">Mutton
+        <br><br>
+        <label for="location">location</label>
+        <input type="url" id="location" name="location">
+        <br>
+        <label for="">Time</label>
+        <input type="time" name="" id="">
+        <br><br>
+        <label for="">Date and Time</label>
+        <input type="datetime-local" name="" id="">
+        <br><br>
+        <label for="">Week</label>
+        <input type="week" name="" id="">
+        <br><br>
+        <label for="">Month</label>
+        <input type="month" name="" id="">
+        <br><br>
+        <label for="country">Country Names: </label>
+        <select id="country" name="Country" multiple>
+            <option disabled selected hidden>Select the Country</option>
+            <optgroup label="Asian">
+                <option >India</option>
+                <option >China</option>
+                <option >Russia</option>
+                <option >Japan</option>
+                <option >South Koera</option>
+            </optgroup>
+            <optgroup label="Europe">
+                <option >USA</option>
+                <option >Canada</option>
+                <option >Europe</option>
+                <option >Amercia</option>
+                <option >England</option>
+            </optgroup>
+        </select>
+
+        <label for="">Skills</label>
+        <input type="checkbox" value="WebTech" name="skills">WebTech
+        <input type="checkbox" value="SQL" name="skills">SQL
+        <input type="checkbox" value="JAVA" name="skills">JAVA
+        <input type="checkbox" value="Testing" name="skills" checked disabled>Testing
+
+        <br>
+        <label for="">Color</label>
+        <input type="color" name="" id="">
+        <br><br>
+        <label for="">Range</label>
+        <input type="range" name="" id="">
+        <br><br>
+        <label for="">Search</label>
+        <input type="search" name="" id="">
+        <br><br>
+        <button type="reset">Reset</button> <button type="submit">Submit</button> <button type="button">Just a button</button>
+        </pre>
+    </form>
+</body>
+</html>
