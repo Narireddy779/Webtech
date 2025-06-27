@@ -1,0 +1,27 @@
+main{
+    height: 80vh;
+    width: 70vw;
+    border: 15px solid brown;
+    display: flex;
+    justify-content:space-evenly;
+    margin-left: 200px;
+    align-items: center;
+}
+div{
+    height: 100px;
+    width: 150px;
+    font-size: 100px;
+    text-align: center;
+}
+main div:nth-child(1){
+background-color: violet;
+}
+main div:nth-child(2){
+    background-color: yellow;
+}
+main div:nth-child(3){
+    background-color: turquoise;
+}
+main div:nth-child(4){
+    background-color: tomato;
+}

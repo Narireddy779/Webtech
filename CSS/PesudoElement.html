@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: gold;
+        }
+        p::first-line{
+            color: violet;
+        }
+        p::before{
+            content: "Hi Hello Namasta ";
+        }
+        p::after{
+            content: " Byee.";
+        }
+        div::selection{
+            background-color: tomato;
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta ratione harum dolore doloribus similique accusantium eveniet, quia dolorem minima molestiae veritatis incidunt saepe quam id autem! Expedita neque accusantium reprehenderit.</p>
+    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eaque, eum at tempore fugiat ipsa nihil sint quidem qui a repellat sit ducimus recusandae iste, perspiciatis, nulla veritatis aspernatur temporibus!</div>
+</body>
+</html>
